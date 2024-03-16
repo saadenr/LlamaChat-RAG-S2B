@@ -1,0 +1,17 @@
+llama-index=0.7.0
+llama-index-embeddings-openai
+llama-index-embeddings-huggingface
+llama-index-llms-openai
+llama-index-llms-langchain
+
+llama-index-llms-portkey
+portkey-ai
+
+openai
+ragas
+gptcache
+datasets
+langchain
+
+python-dotenv
+gradio

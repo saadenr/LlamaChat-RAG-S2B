@@ -1,3 +1,5 @@
+# install_certifi.py
+#
 # sample script to install or update a set of default Root Certificates
 # for the ssl module.  Uses the certificates provided by the certifi package:
 #       https://pypi.python.org/pypi/certifi
@@ -25,11 +27,7 @@ def main():
     import certifi
 
     # change working directory to the default SSL directory
-    try:
-        os.chdir(openssl_dir)
-    except FileNotFoundError:
-        os.makedirs(openssl_dir)
-        os.chdir(openssl_dir)
+    os.chdir(openssl_dir)
     relpath_to_certifi_cafile = os.path.relpath(certifi.where())
     print(" -- removing any existing file or link")
     try:
