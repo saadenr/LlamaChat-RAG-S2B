@@ -16,3 +16,5 @@ The following image illustrates the concept of `window retrieval`. This techniqu
 The following image demonstrates the concept of `base retrieval`. This is a conventional method used in Retrieval-Augmented Generation (RAG) systems, where larger text chunks are retrieved. While this method provides a broad context, it may lack the precision of smaller, more targeted retrievals.
 
 ![base_retrieval](/images/base_retrieval.png)
+
+You can find the updated of the mini project version here : [text](https://rb.gy/u8lo9w)
